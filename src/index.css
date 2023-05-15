@@ -4,3 +4,51 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
+
+/* Navbar */
+
+/* Right NavBar */
+.flex {
+  display: flex;
+}
+
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2%;
+  margin: 2%;
+  border-bottom: 1px solid #d8d2d2;
+}
+
+.logo-container {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: auto;
+}
+
+.logo-container h1 {
+  margin-left: 3%;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* Left NavBar */
+
+.links-list {
+  width: 25%;
+}
+
+.list {
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.links-list li {
+  list-style: none;
+  font-size: 1em;
+}
