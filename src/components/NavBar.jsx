@@ -1,7 +1,12 @@
-import React from "react";
-import logo from "../media/logo.png";
-import { Link } from "react-router-dom";
-import Profile from "./Profile";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import logo from '../media/logo.png';
+
+const links = [
+  { path: '/', text: 'Rockets' },
+  { path: 'missions', text: 'Missions' },
+  { path: 'profile', text: 'Profile' },
+];
 
 const NavBar = () => (
   <>
@@ -12,11 +17,11 @@ const NavBar = () => (
       </div>
       <div className="links-list flex">
         <ul className="flex list">
-          <li>Rockets</li>
-          <li>Missions</li>
-          <li>
-            <Link to={Profile}>My Profile</Link>
-          </li>
+          {links.map((link) => (
+            <li key={link.text}>
+              <NavLink to={link.path}>{link.text}</NavLink>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
