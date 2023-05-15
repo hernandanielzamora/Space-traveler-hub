@@ -1,5 +1,7 @@
-import React from 'react';
-import logo from '../media/logo.png';
+import React from "react";
+import logo from "../media/logo.png";
+import { Link } from "react-router-dom";
+import Profile from "./Profile";
 
 const NavBar = () => (
   <>
@@ -12,7 +14,9 @@ const NavBar = () => (
         <ul className="flex list">
           <li>Rockets</li>
           <li>Missions</li>
-          <li>My Profile</li>
+          <li>
+            <Link to={Profile}>My Profile</Link>
+          </li>
         </ul>
       </div>
     </nav>
