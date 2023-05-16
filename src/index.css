@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Navbar */
@@ -38,7 +41,6 @@
 }
 
 /* Left NavBar */
-
 .links-list {
   width: 25%;
 }
@@ -52,3 +54,130 @@
   list-style: none;
   font-size: 1em;
 }
+
+/* ==================== */
+
+/* MISSIONS STYLES */
+.table-wrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.header-txt {
+  height: 2.5em;
+  padding-top: 1%;
+  text-align: start;
+  font-size: 1.05rem;
+  padding-left: 0.5%;
+}
+
+.t-headerOne {
+  border: solid 1px #999;
+}
+
+.t-headerTwo {
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #999;
+}
+
+.t-headerThree {
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #999;
+  border-right: solid 1px #999;
+}
+
+/* TABLE COLUMNS */
+.t-small {
+  width: 10%;
+}
+
+.t-medium {
+  width: 10%;
+}
+
+.t-large {
+  width: 60%;
+}
+
+/* INNER TABLE */
+.inner-table:nth-child(even) {
+  background-color: #eee;
+}
+
+.inner-name {
+  border-bottom: solid 1px #999;
+  border-right: solid 1px #999;
+  border-left: solid 1px #999;
+  font-size: 1.3em;
+  align-content: center;
+  padding: 0.5%;
+}
+
+.rightBottom-border {
+  border-right: solid 1px #999;
+  border-bottom: solid 1px #999;
+}
+
+.inner-description {
+  padding: 1% 0.5% 2% 0.5%;
+}
+
+/* STATUS */
+.badge {
+  vertical-align: middle;
+  padding-left: 1%;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.active-member {
+  font-size: 0.9em;
+  background-color: rgb(27, 189, 187);
+  color: white;
+  text-align: center;
+  border-radius: 10%;
+  padding: 1%;
+  width: 90%;
+}
+
+.not-member {
+  font-size: 0.9em;
+  background-color: rgb(100, 102, 103);
+  color: white;
+  text-align: center;
+  border-radius: 10%;
+  padding: 1%;
+  width: 90%;
+  text-transform: uppercase;
+}
+
+/* MISSION BTN */
+.mission-btnContainer {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn-apply {
+  cursor: pointer;
+  background-color: #fefcfc;
+  color: green;
+  border-color: green;
+  border-radius: 10%;
+  padding: 3%;
+}
+
+.btn-abandon {
+  cursor: pointer;
+  color: red;
+  background-color: #fefcfc;
+  border-color: red;
+  border-radius: 10%;
+  padding: 3%;
+}
+
+/* END MISSIONS */
+
+/* =========================== */
