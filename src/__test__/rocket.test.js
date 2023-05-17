@@ -8,7 +8,7 @@ it('Test RocketContainer renders correctly', () => {
     .create(
       <Provider store={store}>
         <Rockets />
-      </Provider>
+      </Provider>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
