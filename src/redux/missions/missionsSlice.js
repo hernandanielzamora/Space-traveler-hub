@@ -3,14 +3,17 @@ import axios from 'axios';
 
 const apiUrl = 'https://api.spacexdata.com/v3/missions';
 
-export const fetchMissData = createAsyncThunk('missions/getMissions', async () => {
-  try {
-    const res = axios.get(apiUrl);
-    return res;
-  } catch (error) {
-    return error;
-  }
-});
+export const fetchMissData = createAsyncThunk(
+  'missions/getMissions',
+  async () => {
+    try {
+      const res = axios.get(apiUrl);
+      return res;
+    } catch (error) {
+      return error;
+    }
+  },
+);
 
 const initialState = {
   missions: [],
