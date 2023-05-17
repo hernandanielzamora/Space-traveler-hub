@@ -51,20 +51,19 @@
   justify-content: space-evenly;
 }
 
-
 .list-link {
   color: black;
   text-decoration: none;
 }
 
 .active-link {
-  color: #00D7C6;
+  color: #00d7c6;
   font-weight: 900;
   font-size: 20px;
 }
 
 .active {
-  color: #00D7C6;
+  color: #00d7c6;
   font-weight: 900;
   font-size: 20px;
 }
