@@ -28,7 +28,7 @@ const Profile = () => {
           <table className={styles.table}>
             <thead>
               <tr>
-                <th className={styles.profTitle}>My Rockets</th>
+                <h2 className={styles.profTitle}>My Rockets</h2>
               </tr>
             </thead>
             <tbody>
@@ -40,9 +40,9 @@ const Profile = () => {
                 ))
               ) : (
                 <tr>
-                  <td className={styles.missAccepted}>
+                  <h3 className={styles.missAccepted}>
                     You don&apos;t have reserved rockets yet.
-                  </td>
+                  </h3>
                 </tr>
               )}
             </tbody>

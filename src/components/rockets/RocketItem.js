@@ -23,7 +23,7 @@ const RocketCardItem = (props) => {
         <h3 className={classes.name}>{name}</h3>
 
         {!reserved ? (
-          <div>
+          <div className={classes.rocketdiv}>
             <p>{description}</p>
             <button
               id={id}
@@ -35,7 +35,7 @@ const RocketCardItem = (props) => {
             </button>
           </div>
         ) : (
-          <div>
+          <div className={classes.rocketdiv}>
             <div className={classes.rocket__reserved}>
               <button id={id} type="button" className={classes.reserved__btn}>
                 Reserved

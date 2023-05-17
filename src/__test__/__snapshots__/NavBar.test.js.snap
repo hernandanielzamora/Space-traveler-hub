@@ -26,26 +26,35 @@ Object {
           <ul
             class="flex list"
           >
-            <li>
+            <li
+              class="navigation-link"
+            >
               <a
+                activeclassname="active-link"
                 aria-current="page"
-                class="active"
+                class="list-link active"
                 href="/"
               >
                 Rockets
               </a>
             </li>
-            <li>
+            <li
+              class="navigation-link"
+            >
               <a
-                class=""
+                activeclassname="active-link"
+                class="list-link"
                 href="/missions"
               >
                 Missions
               </a>
             </li>
-            <li>
+            <li
+              class="navigation-link"
+            >
               <a
-                class=""
+                activeclassname="active-link"
+                class="list-link"
                 href="/profile"
               >
                 Profile
@@ -78,26 +87,35 @@ Object {
         <ul
           class="flex list"
         >
-          <li>
+          <li
+            class="navigation-link"
+          >
             <a
+              activeclassname="active-link"
               aria-current="page"
-              class="active"
+              class="list-link active"
               href="/"
             >
               Rockets
             </a>
           </li>
-          <li>
+          <li
+            class="navigation-link"
+          >
             <a
-              class=""
+              activeclassname="active-link"
+              class="list-link"
               href="/missions"
             >
               Missions
             </a>
           </li>
-          <li>
+          <li
+            class="navigation-link"
+          >
             <a
-              class=""
+              activeclassname="active-link"
+              class="list-link"
               href="/profile"
             >
               Profile
