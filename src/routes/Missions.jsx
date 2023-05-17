@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchMissData, apply, abandon } from '../../redux/missions/missionsSlice';
-import Mission from './Mission';
+import { fetchMissData, apply, abandon } from '../redux/missions/missionsSlice';
+import Mission from '../components/missions/Mission';
 
 function Missions() {
   const { missions, loading } = useSelector((state) => state.missions);

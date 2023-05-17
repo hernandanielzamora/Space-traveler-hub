@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Profile from './routes/Profile';
 import store from './redux/store';
 import Rockets from './components/rockets/Rockets';
-import Missions from './components/missions/Missions';
+import Missions from './routes/Missions';
 
 function App() {
   return (

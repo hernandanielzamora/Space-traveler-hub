@@ -43,6 +43,7 @@
 /* Left NavBar */
 .links-list {
   width: 25%;
+  padding-top: 2.5%;
 }
 
 .list {
@@ -50,9 +51,21 @@
   justify-content: space-evenly;
 }
 
-.links-list li {
-  list-style: none;
-  font-size: 1em;
+.list-link {
+  color: black;
+  text-decoration: none;
+}
+
+.active-link {
+  color: #00d7c6;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.active {
+  color: #00d7c6;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 /* ==================== */
@@ -167,6 +180,7 @@
   border-color: green;
   border-radius: 10%;
   padding: 3%;
+  width: 70%;
 }
 
 .btn-abandon {
@@ -176,6 +190,7 @@
   border-color: red;
   border-radius: 10%;
   padding: 3%;
+  width: 70%;
 }
 
 /* END MISSIONS */

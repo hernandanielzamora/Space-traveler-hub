@@ -2,12 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../media/logo.png';
 
-const links = [
-  { path: '/', text: 'Rockets' },
-  { path: 'missions', text: 'Missions' },
-  { path: 'profile', text: 'Profile' },
-];
-
 const NavBar = () => (
   <>
     <nav className="nav-container flex">
@@ -17,11 +11,34 @@ const NavBar = () => (
       </div>
       <div className="links-list flex">
         <ul className="flex list">
-          {links.map((link) => (
-            <li key={link.text}>
-              <NavLink to={link.path}>{link.text}</NavLink>
-            </li>
-          ))}
+          <li className="navigation-link">
+            <NavLink
+              className="list-link"
+              activeClassName="active-link"
+              to="/"
+              end
+            >
+              Rockets
+            </NavLink>
+          </li>
+          <li className="navigation-link">
+            <NavLink
+              className="list-link"
+              activeClassName="active-link"
+              to="/missions"
+            >
+              Missions
+            </NavLink>
+          </li>
+          <li className="navigation-link">
+            <NavLink
+              className="list-link"
+              activeClassName="active-link"
+              to="/profile"
+            >
+              Profile
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
