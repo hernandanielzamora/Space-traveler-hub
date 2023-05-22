@@ -1,13 +1,198 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Navbar */
+
+/* Right NavBar */
+.flex {
+  display: flex;
 }
+
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2%;
+  margin: 2%;
+  border-bottom: 1px solid #d8d2d2;
+}
+
+.logo-container {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: auto;
+}
+
+.logo-container h1 {
+  margin-left: 3%;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* Left NavBar */
+.links-list {
+  width: 25%;
+  padding-top: 2.5%;
+}
+
+.list {
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.list-link {
+  color: black;
+  text-decoration: none;
+}
+
+.active-link {
+  color: #00d7c6;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.active {
+  color: #00d7c6;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* ==================== */
+
+/* MISSIONS STYLES */
+.table-wrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.header-txt {
+  height: 2.5em;
+  padding-top: 1%;
+  text-align: start;
+  font-size: 1.05rem;
+  padding-left: 0.5%;
+}
+
+.t-headerOne {
+  border: solid 1px #999;
+}
+
+.t-headerTwo {
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #999;
+}
+
+.t-headerThree {
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #999;
+  border-right: solid 1px #999;
+}
+
+/* TABLE COLUMNS */
+.t-small {
+  width: 10%;
+}
+
+.t-medium {
+  width: 10%;
+}
+
+.t-large {
+  width: 60%;
+}
+
+/* INNER TABLE */
+.inner-table:nth-child(even) {
+  background-color: #eee;
+}
+
+.inner-name {
+  border-bottom: solid 1px #999;
+  border-right: solid 1px #999;
+  border-left: solid 1px #999;
+  font-size: 1.3em;
+  align-content: center;
+  padding: 0.5%;
+}
+
+.rightBottom-border {
+  border-right: solid 1px #999;
+  border-bottom: solid 1px #999;
+}
+
+.inner-description {
+  padding: 1% 0.5% 2% 0.5%;
+}
+
+/* STATUS */
+.badge {
+  vertical-align: middle;
+  padding-left: 1%;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.active-member {
+  font-size: 0.9em;
+  background-color: rgb(27, 189, 187);
+  color: white;
+  text-align: center;
+  border-radius: 10%;
+  padding: 1%;
+  width: 90%;
+}
+
+.not-member {
+  font-size: 0.8em;
+  background-color: rgb(100, 102, 103);
+  color: white;
+  text-align: center;
+  border-radius: 10%;
+  padding: 1%;
+  width: 90%;
+  text-transform: uppercase;
+}
+
+/* MISSION BTN */
+.mission-btnContainer {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn-apply {
+  cursor: pointer;
+  background-color: #fefcfc;
+  color: green;
+  border-color: green;
+  border-radius: 10%;
+  padding: 3%;
+  width: 70%;
+}
+
+.btn-abandon {
+  cursor: pointer;
+  color: red;
+  background-color: #fefcfc;
+  border-color: red;
+  border-radius: 10%;
+  padding: 3%;
+  width: 70%;
+}
+
+/* END MISSIONS */
+
+/* =========================== */

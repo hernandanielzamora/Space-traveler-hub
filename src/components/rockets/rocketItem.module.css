@@ -1,0 +1,56 @@
+li {
+  display: flex;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.content__left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 60%;
+  text-align: left;
+}
+
+.name {
+  width: 20%;
+}
+
+.action__btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.rocket__reserved {
+  display: flex;
+  flex-direction: row;
+}
+
+.reserved__btn {
+  height: 20px;
+}
+
+.reserve__rocket {
+  margin-top: 16px;
+  width: 120px;
+  height: 40px;
+}
+
+.cancel__reservation {
+  width: 120px;
+  height: 40px;
+  margin-top: 16px;
+}
+
+button {
+  width: 30%;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: none;
+  background: #0290ff;
+}
